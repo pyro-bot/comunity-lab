@@ -1,4 +1,4 @@
-site_name: Лабораторная работа 7
+site_name: Лабораторная работа 8
 
 repo_url: https://github.com/pyro-bot/comunity-lab/
 pages:
@@ -13,6 +13,7 @@ pages:
   - Задание 4: task4.md
   - Задание 5: task5.md
   - Полезные ссылки: links.md
+  - Дополнительная информация: ext_info.md
 
 plugins:
     - search:
