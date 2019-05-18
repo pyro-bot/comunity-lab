@@ -1,0 +1,2 @@
+mkdocs init static_site
+pause

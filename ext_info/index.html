@@ -8,7 +8,7 @@
   
   
   <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>Полезные ссылки - Лабораторная работа 8</title>
+  <title>Дополнительная информация - Лабораторная работа 8</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="../css/theme.css" type="text/css" />
@@ -17,8 +17,8 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "\u041f\u043e\u043b\u0435\u0437\u043d\u044b\u0435 \u0441\u0441\u044b\u043b\u043a\u0438";
-    var mkdocs_page_input_path = "links.md";
+    var mkdocs_page_name = "\u0414\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044f";
+    var mkdocs_page_input_path = "ext_info.md";
     var mkdocs_page_url = null;
   </script>
   
@@ -96,32 +96,26 @@
     <a class="" href="../task5/">Задание 5</a>
 	    </li>
           
+            <li class="toctree-l1">
+		
+    <a class="" href="../links/">Полезные ссылки</a>
+	    </li>
+          
             <li class="toctree-l1 current">
 		
-    <a class="current" href="./">Полезные ссылки</a>
+    <a class="current" href="./">Дополнительная информация</a>
     <ul class="subnav">
             
-    <li class="toctree-l2"><a href="#markdown">Markdown</a></li>
+    <li class="toctree-l2"><a href="#mkdocs-python">Как установить mkdocs в Python</a></li>
     
 
-    <li class="toctree-l2"><a href="#git">Git</a></li>
+    <li class="toctree-l2"><a href="#_1">Создание проекта с сайтом</a></li>
     
 
-    <li class="toctree-l2"><a href="#github">Github</a></li>
-    
-
-    <li class="toctree-l2"><a href="#mkdocs">Mkdocs</a></li>
-    
-
-    <li class="toctree-l2"><a href="#python">Python</a></li>
+    <li class="toctree-l2"><a href="#github-pages">Сборка сайта для GitHub Pages</a></li>
     
 
     </ul>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="../ext_info/">Дополнительная информация</a>
 	    </li>
           
         </ul>
@@ -146,10 +140,10 @@
     
       
     
-    <li>Полезные ссылки</li>
+    <li>Дополнительная информация</li>
     <li class="wy-breadcrumbs-aside">
       
-        <a href="https://github.com/pyro-bot/comunity-lab/edit/master/docs/links.md"
+        <a href="https://github.com/pyro-bot/comunity-lab/edit/master/docs/ext_info.md"
           class="icon icon-github"> Edit on GitHub</a>
       
     </li>
@@ -159,33 +153,37 @@
           <div role="main">
             <div class="section">
               
-                <h2 id="markdown">Markdown</h2>
+                <h2 id="mkdocs-python">Как установить mkdocs в Python</h2>
+<p>Щаги:</p>
 <ol>
-<li><a href="http://konvut.github.io/k50articles/">Шпаргалка</a></li>
-<li><a href="https://paulradzkov.com/2014/markdown_cheatsheet/">Интерактивный учебник</a></li>
+<li><a href="../links/#python">Установите Python</a></li>
+<li>Откройте консоль (нажмите Win+R) и введите в окне <code>cmd</code>
+<img alt="Выполнить" src="../img/run.png" /></li>
+<li>Нажмите <em>ОК</em></li>
+<li>У вас откроется черное окно называемое командной строкой</li>
+<li>В ней нужно ввести команду <code>pip install mkdocs</code>
+<img alt="cmd" src="../img/cmd.png" /></li>
+<li>Нажать <em>Enter</em></li>
+<li>После чего у вас запустится процесс установки библиотеки <em>mkdocs</em></li>
+<li>Дождитесь его завершения</li>
+<li>После установки вы можите создать свой проект</li>
 </ol>
-<h2 id="git">Git</h2>
-<p>Это система контроля версий для текстовых файлов  </p>
+<h2 id="_1">Создание проекта с сайтом</h2>
 <ol>
-<li><a href="https://git-scm.com/">Ссылка для скачивания</a> <strong>(Осторожно консоль)</strong>  </li>
-<li><a href="https://lir.ugrasu.ru/index.php/load_file/58699/pdf">Документация</a></li>
+<li>Создайте пустую папку</li>
+<li>Скачайте туда файл <a href="../media/init.bat">init.bat</a> <em>Если файл открывается браузером, но не скачивается, то просто нажмите на ссылке ПКМ -&gt; Сохранить ссылку как</em></li>
+<li>Запустите файл <em>init.bat</em>. После чего у вас появится папку <code>static_site</code>. Это папка вашего проекта</li>
+<li>Скачайте файл <a href="../media/serve.bat">serve.bat</a> и положите его в папку <code>static_site</code>.</li>
+<li>Запустите файл <code>serve.bat</code></li>
+<li>После этого можите открыть ваш сайт <a href="http://localhost:8000">localhost:8000</a></li>
 </ol>
-<h2 id="github">Github</h2>
-<p>Это репозиторий для проектов созданных с помощью git</p>
+<h2 id="github-pages">Сборка сайта для GitHub Pages</h2>
 <ol>
-<li><a href="https://github.com/">Официальный сайт</a></li>
-<li><a href="https://vertex-academy.com/tutorials/ru/kak-sozdat-repozitorij-na-github/">Краткая инструкция по созданию репозитория</a></li>
+<li>Скачайте файл <a href="../media/build.bat">build.bat</a>. И положите его рядом с файлом <code>serve.bat</code></li>
+<li>Запустите файл <code>build.bat</code></li>
+<li>У вас появится папка <code>site</code></li>
+<li>Содержимое папки <code>site</code> надо загрузить в GitHub</li>
 </ol>
-<h2 id="mkdocs">Mkdocs</h2>
-<p>Это программа для сборки сайта</p>
-<ol>
-<li><a href="https://www.mkdocs.org/">Официальный сайт</a> <strong>На английском</strong></li>
-<li><a href="https://www.youtube.com/watch?v=tB6QN2ljDL8">Видеоурок по ручной настройка</a> <strong>На английском (используйте субтитры)</strong></li>
-</ol>
-<h2 id="python">Python</h2>
-<p>Это язык программирования на котором работает mkdocs.<br />
-Для ручной установки вам будет необходимо установить все самим
-<a href="https://python-scripts.com/install-python">Как установить Python</a></p>
               
             </div>
           </div>
@@ -193,10 +191,8 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../ext_info/" class="btn btn-neutral float-right" title="Дополнительная информация">Next <span class="icon icon-circle-arrow-right"></span></a>
       
-      
-        <a href="../task5/" class="btn btn-neutral" title="Задание 5"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../links/" class="btn btn-neutral" title="Полезные ссылки"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -224,10 +220,8 @@
           <a href="https://github.com/pyro-bot/comunity-lab/" class="fa fa-github" style="float: left; color: #fcfcfc"> GitHub</a>
       
       
-        <span><a href="../task5/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../links/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
-      
-        <span style="margin-left: 15px"><a href="../ext_info/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
