@@ -1,0 +1,21 @@
+site_name: Лабораторная работа 7
+
+repo_url: https://github.com/pyro-bot/comunity-lab/
+pages:
+  - Общее описание: index.md
+  - Задание 1: task1.md
+  - Задание 2: task2.md
+  - Задание 3: 
+      - Общее описание: task3/part1.md
+      - Создание многоуровневого меню: task3/part2.md
+      - Добавление еще одного пункта в меню: task3/part3.md
+      - Само задание: task3/part4.md
+  - Задание 4: task4.md
+  - Задание 5: task5.md
+  - Полезные ссылки: links.md
+
+plugins:
+    - search:
+        lang: ru
+        
+theme: readthedocs
