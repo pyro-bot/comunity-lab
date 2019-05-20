@@ -1,4 +1,6 @@
 ## Markdown
+Это упрощенный язык разметки для веб-страниц
+
 1. [Шпаргалка](http://konvut.github.io/k50articles/)
 2. [Интерактивный учебник](https://paulradzkov.com/2014/markdown_cheatsheet/)
 
