@@ -57,9 +57,9 @@
     
         <ul>
         
-            <li><a class="toctree-l3" href="#_1">Команды</a></li>
+            <li><a class="toctree-l3" href="#mkdocs_1">Запуск окружения для работы с mkdocs</a></li>
         
-            <li><a class="toctree-l3" href="#markdown">Markdown</a></li>
+            <li><a class="toctree-l3" href="#_3">Как редактировать файлы</a></li>
         
         </ul>
     
@@ -157,16 +157,34 @@
               
                 <h1 id="mkdocs">Разработка статического сайта на основе генератора сайтов mkdocs</h1>
 <p>В данной работе мы познакомимся с инструментом <strong>mkdocs</strong></p>
-<h2 id="_1">Команды</h2>
-<ul>
-<li><code>mkdocs new [dir-name]</code> - Создать новый проект</li>
-<li><code>mkdocs serve</code> - Запустить сервер для просмотра вашего сайта</li>
-<li><code>mkdocs build</code> - Собрать сайт</li>
-<li><code>mkdocs help</code> - Получить справку</li>
-</ul>
-<h2 id="markdown">Markdown</h2>
-<p>Это упрощенный язык разметки для веб-страниц
-Для просмотра документации для этого языка воспользуйтесь <a href="http://konvut.github.io/k50articles/">ссылкой</a></p>
+<h2 id="mkdocs_1">Запуск окружения для работы с mkdocs</h2>
+<h3 id="_1">С компьютера в ЮГУ (тонкие клиенты)</h3>
+<p>Это наиболее простой способ создания окружения</p>
+<ol>
+<li>Создайте папку для проекта</li>
+<li>Скачайте и распакуйте в нее <a href="media/Conda.zip">архив</a> </li>
+<li>Последовательно запустите файлы:<ol>
+<li><code>env-create.bat</code>  - создаем окружение. <em>запускать только один раз на каждое включение компьютера</em></li>
+<li><code>vdocs-init.bat</code> - создаем проект. <em>запускать один раз для проекта</em></li>
+<li><code>vdocs-start.bat</code> - запускаем сервер для сборки нашего сайта. <em>запускать для работы с сайтом</em> </li>
+</ol>
+</li>
+<li>Восле запуска сервера сборки ваш сайт будет доступен локально по адресу <a href="http://localhost:8000">localhost:8000</a></li>
+<li>Для сборки сайта в виде исходных кодов для загрузки в gitHub Pages используйте файл <code>vdocs-build.bat</code></li>
+</ol>
+<h3 id="_2">С любого компьютера</h3>
+<p>Для выполнения работы на компьютере, который не был специально подготовлен воспользуйтесь описанием в разделе <a href="ext_info/">Дополнительная информация</a></p>
+<h2 id="_3">Как редактировать файлы</h2>
+<p>Все файлы в данной работе можно открыть в блокноте<br />
+Но можно использовать специальные программы для работы с данными файлами<br />
+Например <a href="https://code.visualstudio.com/Download">Visual Studio Code</a> или <a href="https://notepad-plus-plus.org/">Notepad++</a></p>
+<p>Для работы на конком клиенте вы можите скачать специальную портативную версию <a href="https://code.visualstudio.com/docs/?dv=winzip">Visual Studio Code</a><br />
+Как с ней работать:</p>
+<ol>
+<li>Распакуйте архив с VSCode</li>
+<li>Запустите файл <code>Code.exe</code></li>
+<li>Откроте в нем папку с проектом</li>
+</ol>
               
             </div>
           </div>
@@ -217,5 +235,5 @@
 
 <!--
 MkDocs version : 1.0.4
-Build Date UTC : 2019-05-18 19:44:01
+Build Date UTC : 2019-05-20 19:36:50
 -->
