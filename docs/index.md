@@ -25,9 +25,9 @@
 Но можно использовать специальные программы для работы с данными файлами  
 Например [Visual Studio Code](https://code.visualstudio.com/Download) или [Notepad++](https://notepad-plus-plus.org/)
 
-Для работы на конком клиенте вы можите скачать специальную портативную версию [Visual Studio Code](https://code.visualstudio.com/docs/?dv=winzip)  
+Для работы на тонком клиенте вы можете скачать специальную портативную версию [Visual Studio Code](https://code.visualstudio.com/docs/?dv=winzip)  
 Как с ней работать:
 
 1. Распакуйте архив с VSCode
 2. Запустите файл `Code.exe`
-3. Откроте в нем папку с проектом
+3. Откройте в нем папку с проектом
