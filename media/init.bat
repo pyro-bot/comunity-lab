@@ -1,2 +1,2 @@
-mkdocs init static_site
+mkdocs new static_site
 pause
